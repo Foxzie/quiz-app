@@ -1,5 +1,3 @@
-Tentu, saya akan buatkan file README.md untuk proyek kuis Anda. File ini akan menjelaskan tentang proyek, cara menjalankannya, dan teknologi yang digunakan, sehingga orang lain (atau Anda di masa depan) bisa memahaminya dengan mudah.
-
 📝 Aplikasi Kuis Pengetahuan Umum Sederhana
 Aplikasi kuis sederhana yang dibuat menggunakan HTML, CSS, dan JavaScript murni. Kuis ini memiliki 100 pertanyaan tentang pengetahuan umum dan memberikan umpan balik instan untuk setiap jawaban.
 
