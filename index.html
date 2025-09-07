@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi Kuis Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="start-page" class="quiz-container">
+      <h1>Selamat Datang di Kuis Pengetahuan Umum!</h1>
+      <p>Uji pengetahuan Anda dengan menjawab 100 pertanyaan seru.</p>
+      <button id="start-btn" class="start-btn">Mulai Kuis</button>
+    </div>
+
+    <div id="quiz-page" class="quiz-container hidden">
+      <div class="score-display">Skor: <span id="current-score">0</span></div>
+      <div id="quiz">
+        <h2 id="question">Pertanyaan di sini</h2>
+        <div id="answer-buttons" class="btn-container"></div>
+        <div class="control-buttons">
+          <button id="stop-btn" class="control-btn hidden">Berhenti</button>
+          <button id="next-btn" class="control-btn hidden">Selanjutnya</button>
+        </div>
+      </div>
+    </div>
+
+    <audio id="correctSound" src="audio/correct.mp3"></audio>
+    <audio id="incorrectSound" src="audio/incorrect.mp3"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
